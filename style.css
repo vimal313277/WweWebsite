@@ -1,0 +1,654 @@
+/* <!--=================================== main navbar start ==================--> */
+
+* {
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+.header {
+  width: 100%;
+  height: auto;
+  background-color: #222222;
+  /* background-color: red; */
+  display: flex;
+  padding: 7px;
+  text-transform: uppercase;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.bar {
+  position: relative;
+  margin: auto;
+  display: none;
+}
+
+#ckc {
+  display: none;
+}
+
+.bar i {
+  color: white;
+  font-size: 30px;
+}
+
+.logo {
+  width: 45px;
+  height: 45px;
+  margin-left: 4%;
+}
+
+.logo img {
+  width: 45px;
+  height: 45px;
+}
+
+ul {
+  display: flex;
+  /* background-color: red; */
+  width: 45%;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+}
+
+ul li {
+  list-style: none;
+}
+
+ul li a {
+  text-decoration: none;
+  list-style: none;
+  color: #aaaaaa;
+  font-weight: 600;
+  font-family: "HeadingProDouble", sans-serif;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 15px;
+}
+
+ul li a:hover {
+  color: white;
+  /* font-size: 21px;  */
+}
+
+.respo {
+  display: none;
+}
+
+.watch {
+  display: flex;
+  /* background: green; */
+  width: 33%;
+  justify-content: right;
+  align-items: center;
+  font-size: 15px;
+  color: white;
+  font-weight: 300;
+  font-family: "HeadingProDouble", sans-serif;
+}
+
+.watch p {
+  padding: 0 6px;
+}
+
+.fa-user {
+  margin-left: 38%;
+}
+
+.img-sony {
+  width: 30px;
+  height: auto;
+  line-height: 1px;
+}
+
+.img-sony img {
+  width: 30px;
+  height: auto;
+}
+
+.user-icon {
+  color: white;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  /* background: red; */
+  margin-left: 3%;
+  width: 50px;
+  border-left: 1px solid white;
+}
+
+.search {
+  font-size: 25px;
+  color: white;
+  /* background: red; */
+  display: flex;
+  align-items: center;
+  width: 80px;
+}
+
+.fa-search {
+  margin-left: 1.5em;
+}
+
+/* <!--=================================== main navbar start ==================--> */
+
+/* <!--================================== slider section video news =========================-- */
+
+#main-section {
+  width: 100%;
+  height: auto;
+  background: #141516;
+  color: white;
+  padding: 1%;
+}
+
+.para-title {
+  display: flex;
+}
+
+.para-title h2 {
+  font-size: 20px;
+  font-family: "Roboto", "Verdana", "Arial", sans-serif;
+  width: 20%;
+  margin: auto;
+}
+
+.video-content {
+  width: 80%;
+}
+
+.video1 {
+  width: 230px;
+  height: 133px;
+}
+
+/* <!--================================== slider section video news (END) =========================-- */
+
+/* <!-- ============================ slider html start  ======================= */
+
+#slider {
+  width: 100%;
+  height: 575px;
+}
+
+.mainslider {
+  width: 95%;
+  height: 550px;
+  position: absolute;
+  background-image: url(slider-1.jpg);
+  left: 2.5%;
+  top: 30%;
+  background-size: 100% 100%;
+  box-shadow: 2px 2px 4px 8px gray;
+  animation: slider 9s infinite linear;
+  margin-top: 0.85%;
+}
+
+@keyframes slider {
+  0% {
+    background-image: url(slider-1.jpg);
+  }
+
+  35% {
+    background-image: url(sider-2.jpg);
+  }
+
+  75% {
+    background-image: url(sider-3.jpg);
+  }
+}
+
+/* <!-- ============================ slider html (END)  ======================= */
+
+/* <!--======================== Smarkdown news details ========================  */
+
+#SmackDown-news {
+  background: white;
+  width: 100%;
+  height: 500px;
+  padding: 30px;
+}
+
+.SmackDown-container {
+  display: flex;
+}
+
+.SmackDown-contend {
+  width: 225px;
+  height: 205px;
+  background: #3b30fe;
+}
+
+.SmackDown-contend img {
+  width: 160px;
+  height: 115px;
+  margin: 33px;
+}
+
+.social-icon {
+  width: 57%;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 4%;
+  margin-left: 22%;
+  margin-top: 13%;
+  border-bottom: 2px solid gray;
+}
+
+.social-icon:hover {
+  color: blue;
+}
+
+.fa-facebook {
+  font-size: 25px;
+}
+
+.fa-twitter {
+  font-size: 25px;
+}
+
+.fa-whatsapp {
+  font-size: 25px;
+}
+
+.SmackDown-img {
+  width: 58%;
+}
+
+.SmackDown-img img {
+  width: 100%;
+}
+
+.smacklogo-d {
+  width: 25%;
+  height: 476px;
+  background-color: #3b30fe;
+}
+
+.smacklogo-d .para-d {
+  font-size: 21px;
+  width: 78%;
+  padding: 16px;
+  margin-top: 5%;
+  color: white;
+  border-bottom: 3px solid white;
+  margin-left: 7%;
+}
+
+.smacklogo-d h1 {
+  color: white;
+  font-size: 37px;
+  margin: 10%;
+}
+
+.smacklogo-d h3 {
+  margin-top: 42%;
+  color: white;
+  background: #2812cb;
+  text-align: center;
+  padding: 8px;
+}
+
+/* <!--======================== Smarkdown news details (END) ========================-- */
+
+/* <!--========================== NIght 3 Match  start =============================- */
+
+#photo-add {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  margin-top: 1%;
+  padding: 15px;
+}
+
+.img-match p {
+  font-size: 22px;
+  line-height: 34px;
+  color: #000;
+  font-weight: 700;
+  font-family: "Roboto", "Verdana", "Arial", sans-serif;
+  padding: 10px;
+}
+
+.potosh-contend {
+  display: flex;
+}
+
+.img-match img {
+  width: 90%;
+  height: auto;
+}
+
+/* <!--========================== NIght 3 Match (END) =============================- */
+
+/* <!--=========================== trending video by wwe start ============================  */
+#trending {
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+}
+
+.trending-head {
+  width: 100%;
+  height: auto;
+  color: white;
+  background-color: #003250;
+  padding: 15px 15px 15px 25px;
+}
+
+.T-para {
+  padding: 3px 0px 0px 64px;
+  color: #fff;
+  font-family: "Roboto", "Verdana", "Arial", sans-serif;
+  font-size: 1rem;
+}
+
+.T2-para {
+  padding: 1px 0px 0px 64px;
+  color: #d9d9d9;
+  font-family: "Roboto", "Verdana", "Arial", sans-serif;
+  font-size: 24px;
+}
+
+.T-btn {
+  float: right;
+  margin-top: -51px;
+  margin-right: 2%;
+  text-align: center;
+  background-color: #d7182a;
+  font-size: 95%;
+  padding: 13px;
+  border-radius: 7px;
+  border: none;
+  outline: none;
+}
+
+.T-btn a {
+  text-decoration: none;
+  color: white;
+  padding: 5px;
+}
+
+.T-btn:hover a {
+  border-bottom: 2px solid whitesmoke;
+}
+
+.trending-video {
+  width: 100%;
+  height: auto;
+  background-color: #164561;
+  padding: 30px;
+}
+
+.main-video {
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+.T-video1 {
+  width: 347px;
+  height: 200px;
+}
+
+.main-video-title {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.video-title1 p {
+  width: 91%;
+  height: auto;
+  margin-right: 33px;
+  font-size: 15px;
+  font-weight: 700;
+  padding: 12px;
+  color: white;
+  font-family: "Roboto", "Verdana", "Arial", sans-serif;
+}
+
+.fa-download {
+  font-size: 26px;
+  margin-left: -92%;
+  text-align: center;
+  color: white;
+}
+
+.icon-top {
+  margin-top: 13%;
+}
+
+.fa-download:hover {
+  border-bottom: 3px solid red;
+}
+
+/* <!--=========================== trending video by wwe (END) ============================  */
+
+/* <!-- ========================================== full section wwe top 10 news 2023 ==========================-- */
+
+.main-10 {
+  width: 100%;
+  display: flex;
+  padding: 18px;
+}
+
+.one-side {
+  width: fit-content;
+  text-align: center;
+  padding: 15px;
+}
+
+.social-10 {
+  width: 140px;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 15%;
+  color: grey;
+}
+
+.btn-10 {
+  width: 125px;
+  height: 37px;
+  background: #313838;
+  color: white;
+  border: none;
+  outline: none;
+  font-weight: 800;
+}
+
+.para-10 {
+  color: black;
+  width: 32%;
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  line-height: 40px;
+}
+
+.para-img-10 {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.img-10 {
+  width: 35%;
+}
+
+.hr-10 {
+  width: 89%;
+  border: 1px solid black;
+  margin-top: 2%;
+  margin-bottom: 1%;
+}
+
+/* <!-------------------------- background add images wwe ---------------------- */
+
+.background-images {
+  width: 100%;
+  height: 800px;
+  background: url("background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 2px solid black;
+}
+
+.background-btn {
+  padding: 33px;
+  padding-top: 42%;
+}
+
+.back-btn {
+  width: 12%;
+  height: 43px;
+  font-size: 20px;
+  font-weight: 800;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  text-align: center;
+  background: #4646b5;
+}
+
+.back-icon {
+  display: flex;
+  width: 8%;
+  color: blue;
+  justify-content: space-around;
+  margin-left: 2%;
+  margin-top: 1%;
+}
+
+.back-h1 {
+  color: black;
+  margin: 1%;
+  width: fit-content;
+}
+
+/*============================== wwe top 10 news 2023 End =========================*/
+
+/* <!-- =================================== WWE latest Result section start ==========================- */
+
+#wwe-Result {
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+}
+
+.Result-head {
+  width: 100%;
+  height: auto;
+  color: white;
+  background-color: #003250;
+  padding: 15px 15px 15px 25px;
+}
+
+.R-para {
+  padding: 3px 0px 0px 64px;
+  color: #fff;
+  font-family: "Roboto", "Verdana", "Arial", sans-serif;
+  font-size: 1rem;
+}
+
+.R2-para {
+  padding: 1px 0px 0px 64px;
+  color: #d9d9d9;
+  font-family: "Roboto", "Verdana", "Arial", sans-serif;
+  font-size: 24px;
+}
+
+.R-btn {
+  float: right;
+  margin-top: -51px;
+  margin-right: 2%;
+  text-align: center;
+  background-color: #d7182a;
+  font-size: 95%;
+  padding: 13px;
+  border-radius: 7px;
+  border: none;
+  outline: none;
+}
+
+.R-btn a {
+  text-decoration: none;
+  color: white;
+  padding: 5px;
+}
+
+.R-btn:hover a {
+  border-bottom: 2px solid whitesmoke;
+}
+
+.main-pages-contend {
+  width: 100%;
+  height: 500px;
+  background-color: #164561;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.raw-pages {
+  width: 22%;
+  height: 485px;
+  padding: 1%;
+}
+.contend-in-video {
+  width: 100%;
+}
+
+.logo-in-row {
+  text-align: center;
+}
+
+.logo-in-row img {
+  width: 42% !important;
+  height: 80px;
+}
+
+.row-in-para {
+  width: 100%;
+  color: white;
+  font-weight: 800;
+  font-family: sans-serif;
+}
+.raw-pages-details {
+  padding-top: 35%;
+}
+.raw-pages-details a {
+  text-decoration: none;
+  color: white;
+  font-size: 19px;
+  font-weight: 900;
+}
+
+.wwe-Result-btn {
+  float: right;
+  margin-top: -51px;
+  margin-right: 2%;
+  text-align: center;
+  background-color: #d7182a;
+  font-size: 95%;
+  padding: 13px;
+  border-radius: 7px;
+  border: none;
+  outline: none;
+  display: none;
+}
+
+.wwe-Result-btn a {
+  text-decoration: none;
+  color: white;
+  padding: 5px;
+}
+
+.wwe-Result-btn:hover a {
+  border-bottom: 2px solid whitesmoke;
+}
